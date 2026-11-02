@@ -1,0 +1,23 @@
+# Private course materials & restricted PDFs
+private/
+pdfs/restricted/
+*.pdf
+!resources/official-documentation/*.pdf
+
+# Environment & credentials
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+*.tfstate
+*.tfstate.*
+
+# OS & Editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.log
+node_modules/
+__pycache__/
